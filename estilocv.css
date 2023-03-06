@@ -4,7 +4,8 @@
 
 body{
    margin: 0;
-   background-color: lightpink;}
+   background-color: lightpink;
+}
     
 h1{font-size: 60px;font-family: 'Times New Roman', Times, serif; margin: 0%; background-color: deeppink; color: antiquewhite;}
 h2{font-size:  40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; background-color: hotpink;color: antiquewhite;}
@@ -12,7 +13,8 @@ h3{font-size:  30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Ro
 h4{font-size: 15px;font-family: Arial, Helvetica, sans-serif;background-color: antiquewhite;color: royalblue;margin: 0%;}
 h5{font-size:  30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: bisque;color: deeppink; margin: 2%;}
 h6{font-size: 15px;font-family: Arial, Helvetica, sans-serif;background-color:plum;color: darkorchid;margin: 0%; border-inline-start-color: cornsilk;}
-nav{background-color: rgb(202, 83, 139);}
+nav{background-color: rgb(202, 83, 139);
+}
 
 button{
     border: none;
@@ -25,23 +27,20 @@ button{
     margin: 4px 2px;
     cursor:pointer;
     font-family: 'Times New Roman', Times, serif;
-    background-color: deeppink;}
+    background-color: deeppink;
+    }
+
 
 header.container{
     max-width: 1400px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: auto;  
    
 }
+
 header{
     background-color: blanchedalmond; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
+
 span{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -58,9 +57,11 @@ header nav{
     }
 header a{
         color: blanchedalmond;
-        }
+        
+}
 .container span{color: rgb(189, 53, 80);
-font-size: 60px;}
+font-size: 60px;
+}
 
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +70,8 @@ footer{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    }
 
 #Portada {
     display: flex;
@@ -106,25 +108,28 @@ footer{
         justify-content:center ;
         text-align: initial;
         flex-direction: column;
-                }
+  }
     #Experiencia-laboral .container {
         display: flex;
         align-items: center;
         justify-content:center ;
         text-align: initial;
         flex-direction: column;
-          }
+  }
     #Aptitudes .container {
     display: flex;
     align-items: center;
     justify-content:center ;
     text-align: center;
     flex-direction: column;
+    
     }
 
-    #empresa{color: magenta;}
+    #empresa{color: magenta;
+    }
     
-    #empresa2{color: magenta;}
+    #empresa2{color: magenta;
+    }
 
     #retorno {
         display: flex;
