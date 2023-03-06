@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   background-color: lightpink;}
+    
+h1{font-size: 60px;font-family: 'Times New Roman', Times, serif; margin: 0%; background-color: deeppink; color: antiquewhite;}
+h2{font-size:  40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; background-color: hotpink;color: antiquewhite;}
+h3{font-size:  30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: bisque;color: darkblue; margin: 2%;}
+h4{font-size: 15px;font-family: Arial, Helvetica, sans-serif;background-color: antiquewhite;color: royalblue;margin: 0%;}
+h5{font-size:  30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: bisque;color: deeppink; margin: 2%;}
+h6{font-size: 15px;font-family: Arial, Helvetica, sans-serif;background-color:plum;color: darkorchid;margin: 0%; border-inline-start-color: cornsilk;}
+nav{background-color: rgb(202, 83, 139);}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: deeppink;}
+
+header.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: blanchedalmond; 
+
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    }
+header a{
+        color: blanchedalmond;
+        }
+.container span{color: rgb(189, 53, 80);
+font-size: 60px;}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: royalblue;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+#Portada {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(https://resultadosdigitais.com.br/wp-content/uploads/2019/04/Marketing-Digital.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    /** Datos ficticios obtenidos de micvideal.es a modo de ejemplo*/
+
+    #Datos-personales .container {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        text-align: initial;
+        flex-direction: column;
+        }
+
+    #Estudios .container {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        text-align: initial;
+        flex-direction: column;
+            }
+    #Cursos .container {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        text-align: initial;
+        flex-direction: column;
+                }
+    #Experiencia-laboral .container {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        text-align: initial;
+        flex-direction: column;
+          }
+    #Aptitudes .container {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    }
+
+    #empresa{color: magenta;}
+    
+    #empresa2{color: magenta;}
+
+    #retorno {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        text-align: initial;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+    
